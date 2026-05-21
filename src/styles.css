@@ -1,0 +1,12 @@
+:root { font-family: Inter, sans-serif; color: #1f2937; background: #f7f4ee; }
+body { margin: 0; }
+.app { max-width: 1100px; margin: 0 auto; padding: 24px; }
+h1,h2,h3 { font-family: Lora, serif; }
+nav, .row { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 16px; }
+button, select, input { padding: 8px 10px; border-radius: 10px; border: 1px solid #d4cec1; background: #fff; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(250px,1fr)); gap: 12px; }
+.card, .detail { background: #fffdf8; border: 1px solid #e5dfd0; border-radius: 14px; padding: 14px; }
+.quote { font-style: italic; }
+.filters { display:flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.form { display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 10px; }
+label { display:flex; flex-direction: column; gap: 6px; font-size: 14px; }
